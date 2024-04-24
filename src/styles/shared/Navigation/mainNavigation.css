@@ -1,0 +1,40 @@
+.menuToggle {
+  display: block;
+  font-size: 25px;
+}
+
+.menuToggle svg {
+  color: white;
+  cursor: pointer;
+}
+
+.main-navigation__title {
+  color: white;
+}
+
+.main-navigation__title .link {
+  text-decoration: none;
+  color: white;
+}
+
+.main-navigation__header-nav {
+  display: none;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .menuToggle {
+    display: none;
+  }
+
+  .main-navigation__header-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+  }
+}
